@@ -7,25 +7,21 @@ output: html_document
 
 
 ```{r echo=FALSE}
-# Генерация данных
 set.seed(123)  # для воспроизводимости результата
 data <- data.frame(
   X = sample(1:100, 10, replace = TRUE),
   Y = sample(1:100, 10, replace = TRUE)
 )
 
-# Вывод данных
-print(data)
-
-# Установка библиотеки для построения графиков
-if (!requireNamespace("ggplot2", quietly = TRUE)) {
-  install.packages("ggplot2")
-}
 library(ggplot2)
-
-# Построение scatterplot
 ggplot(data, aes(x = X, y = Y)) +
   geom_point() +
+  geom_line() +
   labs(title = "Scatterplot", x = "X", y = "Y")
 
-``
+```
+
+
+```{r echo=FALSE}
+print("hello")
+```
