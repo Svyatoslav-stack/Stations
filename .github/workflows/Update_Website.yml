@@ -1,0 +1,22 @@
+name: Update Website
+
+on:
+  schedule:
+    - cron: '0 * * * *'  # Запуск каждый час (в 00 минут каждого часа)
+
+jobs:
+  update-website:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Update HTML
+      run: |
+        # Здесь команды для обновления вашего HTML файла
+        # Например, это может быть Python скрипт, который изменяет HTML
+    - name: Commit and Push
+      run: |
+        git config --global user.name 'Your Name'
+        git config --global user.email 'your-email@example.com'
+        git add .
+        git commit -m 'Update website'
+        git push
