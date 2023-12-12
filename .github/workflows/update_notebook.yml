@@ -2,7 +2,7 @@ name: Update Notebook and Generate HTML
 
 on:
   schedule:
-    - cron: '*/30 * * * *'  # Запуск каждые 30 минут
+    - cron: '*/1 * * * *'  # Запуск каждые 30 минут
 
 jobs:
   update-notebook:
