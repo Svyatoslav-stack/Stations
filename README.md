@@ -8,4 +8,4 @@ HTML page is hosted by GitHub Pages.
 [Enjoy it.](https://svyatoslav-stack.github.io/Stations/)
 
 ### Contact:
-If You want to get a code: Take contact with me by email at [svyatoslav.rogozin.email@gmail.com](javascript:void(location.href='mailto:'+String.fromCharCode(121,111,117,114,46,101,109,97,105,108,32,58,32)+String.fromCharCode(101,120,97,109,112,108,101,32,64,101,120,97,109,112,108,101,46,99,111,109)))
+If You want to get a code: Take contact with me by [email] (svyatoslav.rogozin.email@gmail.com)
