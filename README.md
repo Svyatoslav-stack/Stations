@@ -1,6 +1,6 @@
 # Introduction:
 Hello. I am Svyatoslav Rogozin, the creator of this repository. 
-The repository visualizes raw data from two forest stations in Estonia: Agali II and Soontaga. 
+The repository visualizes raw data from forest stations in Estonia. 
 Whole HTML page was created using R Markdown and the flexdashboard package.
 The visualization of raw data was performed in R using the scattermore library.
 The "calculated data" were estimated using the RFlux package in R.
